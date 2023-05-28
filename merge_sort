@@ -1,0 +1,37 @@
+Aşamalar:
+
+Adım 1: [16, 21, 11, 8, 12, 22]
+Dizi yarıya bölünerek alt dizilere ayrılır:
+[16, 21, 11] ve [8, 12, 22]
+
+Adım 2: [16, 21, 11]
+Dizi yarıya bölünerek alt dizilere ayrılır:
+[16], [21, 11]
+
+Adım 3: [21, 11]
+Dizi yarıya bölünerek alt dizilere ayrılır:
+[21], [11]
+
+Adım 4: [16], [21, 11]
+Alt diziler birleştirilirken sıralama işlemi gerçekleştirilir:
+[11, 16, 21]
+
+Adım 5: [8, 12, 22]
+Dizi yarıya bölünerek alt dizilere ayrılır:
+[8], [12, 22]
+
+Adım 6: [12, 22]
+Dizi yarıya bölünerek alt dizilere ayrılır:
+[12], [22]
+
+Adım 7: [8], [12, 22]
+Alt diziler birleştirilirken sıralama işlemi gerçekleştirilir:
+[8, 12, 22]
+
+Adım 8: [11, 16, 21], [8, 12, 22]
+Son olarak, iki alt dizi birleştirilirken sıralama işlemi gerçekleştirilir:
+[8, 11, 12, 16, 21, 22]
+
+Sıralanmış dizi: [8, 11, 12, 16, 21, 22]
+
+Big-O gösterimi: Merge Sort'un ortalama, en kötü ve en iyi durum karmaşıklığı O(n log n)'dir. Yani, n elemanlı bir diziyi sıralamak için ortalama olarak n log n adım gerekmektedir.
